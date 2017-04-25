@@ -35,5 +35,21 @@ var num = [10,10,10,20];
             total+=element;
         }, this);
         return total;
-    }
+    };
     sum(num);
+
+//************ max array    ********** *
+var max = [1,2,113,4,5,62,10];
+// function Maxarr
+    function maxArr(max){
+        var maxNum = max[0];
+        for(var i = 1; i <= max.length -1; i++){
+            if(max[i] > maxNum){
+                    maxNum = max[i];
+            }
+        }
+        return maxNum;
+    };
+
+// call function maxArr
+maxArr(max);
