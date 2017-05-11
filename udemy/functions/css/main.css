@@ -1,0 +1,75 @@
+
+@import url("https://fonts.googleapis.com/css?family=Lato|Revalia");
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+/* General css  */
+html,body{
+  height: 100%;
+  background: url("http://www.contemporist.com/wp-content/uploads/2015/04/atisuto-restaurant_060415_06-800x502.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+ /*  display: flex;
+  justify-content:center;
+  align-items:center; */
+}
+p{
+  font-size: 16px;
+  line-height: 150%;
+}
+.main_container{
+  padding: 0 5px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height: 100%;
+}
+.container_title{
+  background:rgba(89, 140, 80, .8);
+  padding: 5px 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px #000;
+}
+.main_title{
+  font-size: 35px;
+  text-transform: uppercase;
+  line-height: 140%;
+  color: lightblue;
+  padding: 20px 5px;
+  text-align: center;
+  font-family: 'Revalia', cursive;
+}
+/* .main_title::after{
+  content: "";
+  display: block;
+  background: blue;
+  width: 60%;
+  height: 4px;
+  position: absolute;
+  bottom: 20px;
+  left:20%;
+} */
+/* Main btn  */
+.main_btn{
+  background:#193441;
+  text-decoration: none;
+  color: #fff;
+  display:block;
+  width: 40%;
+  padding: 10px;
+  text-align: center;
+   margin:40px auto;
+   border: 2px solid #fff;
+   border-radius: 3px;
+}
+.main_btn:hover{
+  box-shadow: 40px 0 #fff inset;
+  color: #193441;
+}
