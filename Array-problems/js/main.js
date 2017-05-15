@@ -40,7 +40,7 @@ var num = [10,10,10,20];
 
 //************ max array    ********** *
 var max = [1,2,113,4,5,62,10];
-// function Maxarr
+// function Max Arr
     function maxArr(max){
         var maxNum = max[0];
         for(var i = 1; i <= max.length -1; i++){
