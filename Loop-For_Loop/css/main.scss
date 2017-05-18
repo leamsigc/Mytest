@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    height :100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-65deg,rgba(255,255,255,0.8) 30%, rgba(0,0,0,0) 30%),url(https://source.unsplash.com/RgTI2KaQ5N4/1200x800);
+    background-size: cover;
+
+}
