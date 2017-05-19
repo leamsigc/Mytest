@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+html,
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+}
+body{
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color:darkblue;
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://source.unsplash.com/yNaGxHqjOuw/1200x800') no-repeat center/cover;
+    background-attachment: fixed;
+    font-size: 40px;
+    text-shadow: 1px 1px 3px #fff;
+}
+p{
+    color: darkblue;
+    padding: 10px 30px;
+    border: 1px solid darkblue;
+    background: #fff;
+    border-radius: 5px;
+}
+button{
+    cursor: pointer;
+    padding: 5px 20px;
+    color: #bebebe;
+    background: rgba(0,0,0,0.3);
+    border:1px solid darkblue;
+    border-radius: 2px;
+}
