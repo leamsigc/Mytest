@@ -29,4 +29,10 @@ elShipping.textContent = '$'+shipping;
 //Get the element that have the id of granTotal then update its contents
 var elGranTotal = document.getElementById('granTotal');
 elGranTotal.textContent =  '$'+grandTotal;
-
+// =================================Travel Worthy=================================
+var msg = 'Sign up to receive our newsletter for 10% off!';
+function updateMsg(){
+     var el = document.getElementById('promo');
+     el.textContent = msg;
+}
+updateMsg();

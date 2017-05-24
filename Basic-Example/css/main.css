@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
 
 html,
 body {
@@ -72,6 +73,37 @@ h1 {
     background: #fff;
     color: red;
     border: 1px solid red; }
+
+.basic {
+  background: #263248;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 20px 5px 40px; }
+  .basic h2 {
+    font-family: 'Lobster', cursive;
+    padding: 20px 40px;
+    color: #fff;
+    letter-spacing: 1.5px;
+    font-size: 40px; }
+
+.promo {
+  -webkit-align-self: flex-end;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  margin-right: 20px;
+  background: #FF9800;
+  padding: 20px 40px;
+  color: #333; }
 
 .instructions {
   max-width: 1200px;
