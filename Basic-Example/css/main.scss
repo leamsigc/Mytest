@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+html,
+body{
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+}
+// =====================HEADER=====================
+header{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url("https://source.unsplash.com/OMXPrCAhxrE/1200x1200");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1{
+	// position:absolute;
+	// top: 20px;
+	// left: 0;
+	// right: 0;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Lobster', cursive;
+	font-weight: 300;
+	color: #fff;
+}
+.main{
+	min-height: 300px;
+	border: 2px solid #000;
+	font-family: 'Roboto', sans-serif;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 800px;
+	padding: 10px 20px;
+}
+.message{
+	padding: 20px 5px;
+	width: 100%;
+	text-align: center;
+}
+.action{
+	align-self: flex-end;
+	text-decoration: none;
+	color: #fff;
+	background: red;
+	padding: 5px 10px;
+	margin-top: 20px;
+	transition: all 0.5s;
+	&:hover{
+		background: #fff;
+		color: red;
+		border: 1px solid red;
+	}
+}
+.instructions{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 3vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.title{
+	padding: 0 20px;
+	flex: 1;
+}
+.content{
+	padding:5px 20px;
+	max-width: 40%;
+}
