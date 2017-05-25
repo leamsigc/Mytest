@@ -60,7 +60,10 @@ header {
   -ms-flex: 1;
   flex: 1; }
 
-.nav .open {
+.toggle {
+  display: none; }
+
+nav .open {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex; }
@@ -81,11 +84,10 @@ header {
 
 @media (max-width: 500px) {
   .nav ul {
-    display: none; }
-  .nav ul {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    display: none; }
   .nav li {
     -webkit-flex: 1 1 100%;
     -ms-flex: 1 1 100%;
@@ -93,7 +95,13 @@ header {
   .nav .social {
     -webkit-flex-basis: 25%;
     -ms-flex-preferred-size: 25%;
-    flex-basis: 25%; } }
+    flex-basis: 25%; }
+  .toggle {
+    display: block; }
+  nav .open {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; } }
 
 .img {
   height: 600px;

@@ -53,9 +53,12 @@ header{
 .nav .social{
     flex: 1;
 }
-.nav .open{
-    display: flex;
+.toggle{
+    display: none;
 }
+ nav .open{
+        display: flex;
+    }
 @media (max-width:1000px){
     .nav ul{
         flex-wrap: wrap;
@@ -68,17 +71,21 @@ header{
     }
 }
 @media (max-width:500px){
-    .nav ul {
-        display: none;
-    }
     .nav ul{
         flex-wrap: wrap;
+        display: none;
     }
     .nav li{
         flex:1 1 100%;
     }
     .nav .social{
         flex-basis:25%;
+    }
+    .toggle{
+        display: block;
+    }
+    nav .open{
+        display: flex;
     }
 }
 .img{
