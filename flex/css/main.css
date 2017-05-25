@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+body {
+  background: linear-gradient(45deg, #3498DB, #2C3E50);
+  color: #ECF0F1; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2px;
+  background: rgba(0, 0, 0, 0.2);
+  transition: all 0.3s; }
+  a:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: #fff; }
+
+li {
+  list-style: none; }
+
+.wraper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  background: rgba(0, 0, 0, 0.3); }
+
+.nav ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0; }
+
+.nav li {
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4; }
+
+.nav .social {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+.nav .open {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+@media (max-width: 1000px) {
+  .nav ul {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .nav li {
+    -webkit-flex: 1 1 50%;
+    -ms-flex: 1 1 50%;
+    flex: 1 1 50%; }
+  .nav .social {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%; } }
+
+@media (max-width: 500px) {
+  .nav ul {
+    display: none; }
+  .nav ul {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .nav li {
+    -webkit-flex: 1 1 100%;
+    -ms-flex: 1 1 100%;
+    flex: 1 1 100%; }
+  .nav .social {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%; } }
+
+.img {
+  height: 600px;
+  width: 100%; }
+
+.img img {
+  width: 100%;
+  height: 100%; }
+
+.text_content {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  margin: 20px 0; }
+
+footer {
+  margin-top: 100px;
+  padding: 20px 30px;
+  text-align: center;
+  background: #2C3E50; }
